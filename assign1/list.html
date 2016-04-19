@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="utf-8" />
+    <title>list int222_161a22</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Lists With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+
+		<!-- First list begins here -->
+
+			<h2 class="red">Favorite Movies: </h2>
+				<ul class= "square">
+					<li> True Romance </li>
+					<li> The Beach </li>
+					<li> Memories of Murder </li>
+				</ul>
+				
+       				<hr>
+
+			<!-- Second list begins here -->				
+
+			<h2 class="red"> Favorite Artists: </h2>	
+				<ol class= "toLower">
+					<li> Incubus </li>
+					<li> John Butler </li>
+					<li> Dub FX </li>
+				</ol>
+				
+				<hr>
+				
+			<!-- Third list begins here which contains the nested ordered list -->
+
+			<h2 class="red"> Favorite novels:  </h2>
+				<ul class="level-1">
+					<li> Dune - <span class="green">Frank Herbert</span> </li>
+					<li> Dracula - <span class="green">Bram Stoker</span> </li>
+					<li> Frankenstein - <span class="green">Mary Shelley</span> 
+						<ol class="level-2"> <!-- Beginning of nested list -->
+							<li> The Republic - <span class="green">Plato</span> </li>
+							<li> The Poet - <span class="green">Michael Connelly</span> </li>
+							<li> The Black Echo -<span class="green"> Michael Connelly</span> </li>
+							</ol></ul>
+							
+					<hr>
+			<!-- Definition list begins -->			
+		
+			<h2 class="red"> Definitions: </h2>
+				<dl>
+					<dt> Languages learned thus far: </dt>
+						<dd> HTML (Hyper Text Markup Language) </dd>
+						<dd> CSS (Cascading Style Sheets) </dd>
+				</dl>  
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString())
+        </script>
+    </footer>
+  </body>
+</html>

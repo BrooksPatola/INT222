@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 2 int222_161a22</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />   
+    <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="guestbook.html">Guest Book</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+		<li><a href="extra.html">Extra</a></li>
+      </ul>
+    </nav>
+   <!-- Your code goes here -->
+<div class="container"> 
+
+   <section class="left">  
+<h1>Audio</h1>
+
+<article>
+<h2>Audio implementation in HTML5</h2>
+<p>
+The HTML5 audio element represents a sound, or an audio stream. It is commonly used to play back a single audio file
+within a web page, showing a GUI widget with play/pause/volume controls.
+</p>
+
+</article>
+
+<article class="divider">
+<h4 class="elegantshadow">Moonlight Sonata (No. 14) - Ludwig van Beethoven</h4>
+
+<p> 
+This piece is one of Beethoven's most popular compositions for the piano, and it was a popular favorite even in 
+his own day. Beethoven wrote the Moonlight Sonata in his early thirties, and did so after he had finished with some commissioned work;
+there is no evidence that he was commissioned to write this sonata.
+</p>
+
+
+<figure>
+   <audio controls="controls">
+     <source src="misc/moonlightSonata.mp3" type="audio/mpeg" />
+     <source src="misc/moonlightSonata.ogg" type="audio/ogg" />
+     Your browser does not support the audio tag used.
+   </audio>  
+</figure>
+  <script>
+             var audio = document.getElementsByTagName('audio')[0];
+ </script>
+                  
+
+
+
+
+
+</article>
+</section>
+<aside>
+<section>
+<h4><u>Video Control Options</u></h4>
+
+<input class="MyButton" type="button" value="Play"              onclick="audio.play();" /> <br />
+<input class="MyButton" type="button" value="Pause"             onclick="audio.pause();" /> <br />
+<input class="MyButton" type="button" value="Volume On"         onclick="audio.volume=1;" /> <br />
+<input class="MyButton" type="button" value="Volume Off"        onclick="audio.volume=0;" /> <br />
+<input class="MyButton" type="button" value="Increase Volume"   onclick="audio.volume+=0.1;" /> <br />
+<input class="MyButton" type="button" value="Decrease Volume"   onclick="audio.volume-=0.1;"/>
+
+<hr>
+
+<h4><u>Social Media Links</u></h4>
+
+<div class="social">
+           <!-- images on row 1 - top 3px left 4px   - increment left by 27px for the next one -->
+           <!-- images on row 2 - top 30px left 4px  - increment left by 27px for the next one -->
+           <!-- images on row 3 - top 57px left 4px  - increment left by 27px for the next one -->
+           <!-- images on the next row - increment top by 27px for the next row -->
+   <a href="http://facebook.com" title="Face Book"  style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 4px;"></a> 
+   <a href="http://twitter.com" title="Twitter" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 31px;"></a>
+   <a href="http://pinterest.com" title="Pinterest" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 58px;"></a>
+   <a href="http://plus.google.com" title="Google+" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 85px;"></a>
+   
+</div>
+</section>
+</aside>
+
+</div>
+    <!-- Your code ends here -->
+  <!-- Defining Footer -->
+  <div id="footer">
+ 
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+       </script>
+ 
+ </div>
+  </body>
+</html>

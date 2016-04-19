@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>INT222</title>
+    <script>
+      var  e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+    // Your code goes here
+
+	//Prompting the user for values that will be stored in the l-value variables
+	
+	e1 = prompt("Enter your first name in lower case: " );
+	e1 = e1[0].toUpperCase() + e1.substring(1);
+	e2 = prompt(e1 + " " + "Enter an integer between 1 and 9: " );
+    e3 = prompt ("Enter 5 numbers seperated by commas: ");
+	e4 = prompt("Enter 3 colors seperated by commas: ");
+	e6 = e3.split(",");
+	e7 = e4.split(",");
+	
+
+	//creating a multiplication table from the stored value in e2  using a for loop
+
+	document.write("<table>");
+    document.write(" <caption>" + e2 + " " + 'times table' + "</caption>");
+    for (var ident = 1 ; ident <= 12 ; ident++) {   
+        document.write(" <tr>");
+        document.write(  "<td>" + e2 + "</td>");
+        document.write("  <td>x</td>");
+        document.write("  <td>" + ident   + "</td>");
+        document.write("  <td>=</td>");
+        document.write("  <td>" + e2*ident + "</td>");
+        document.write(" </tr>");
+    }
+    document.write("</table>"); 
+    
+	//creating table border structure
+
+     var td = document.getElementsByTagName("td");
+for (var i = 0; i < td.length; i++) {
+  td[i].style.border = "1px solid black";
+}  
+	 
+
+	//sum the stored values in the e6 array
+
+	e8 = 0;
+	
+		for(var i = 0; i < e6.length; i++) {
+		
+			e8 += parseInt(e6[i]);
+			
+	}
+	alert(e8);
+	
+	//using 1 alert to display the 3 colors on new lines
+	
+	for(var j = 0; j < e7.length; j++) {
+	
+		e9 += e7[j] + "\n";
+	
+	}
+	alert(e9);
+
+  </script>
+ </head>
+ <body>
+ </body>
+</html>

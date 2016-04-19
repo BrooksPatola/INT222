@@ -1,0 +1,127 @@
+
+  .margin{margin-left: 15px;}
+  
+label{
+	
+	
+    text-decoration: underline;
+	
+	
+}
+  
+ input[type=radio]{
+	 width: 20px;  
+ }
+
+  input[type=text]{
+	  background-color:  #ccffff;
+  }
+ 
+ 
+ #col1, #col2, #col3 {
+      float: left;
+      box-sizing: border-box;
+    }
+
+    #col1 {
+      width: 250px;
+    }
+
+    #col2{
+		width: 450px;
+	} 
+	
+	#col3 {
+      width: 340px;
+    }
+
+    #col3A, #col3B {display:table-cell; width:50%;}
+	#col3A > label, #col3B > label {display:block;}
+	
+	#col1 {text-align: center;}
+	
+	.fontClass{
+		font-size: 24px;
+		color: #999999;
+	    text-shadow:0.1em 0.1em 0.05em;
+	}
+					
+		   
+.button {
+    background-color: #00FFFF;
+}
+
+ fieldset {border-style:solid;
+		   border-width: 6px;
+		   border-top-color: #00ff66; 
+           border-right-color: #003300;
+           border-bottom-color: #003300;
+           border-left-color: #00ff66;
+		  
+ }
+ 
+ legend{
+	    color:  #ffffff;
+		font-size: 24px;
+		background-color: #00FF00;
+		border: 3px solid;
+		border-color:  #cc0000;
+		text-shadow:0.1em 0.1em 0.05em #333 ;
+ }
+ 
+ hr { background-color: red; height: 6px; border: 0; }
+ 
+ .error{
+	 text-align: center;
+   padding-top:   175px;
+   padding-bottom:   175px;
+   
+ }
+ 
+  #footer {
+      clear: both;
+      background: #000;
+      color: #fff;
+	  text-align: center;
+    }
+
+
+	.label{width: 110px;  float: left;}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+
+   li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color:  #00FFFF;
+    text-align: center;
+    padding: 2px ;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/*Add an "active" class to the current link to let the user know which page he/she is on*/
+.active {
+    background-color: #4CAF50;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+

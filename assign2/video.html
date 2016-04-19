@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 2 int222_161a22</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />   
+    <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="guestbook.html">Guest Book</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+		<li><a href="extra.html">Extra</a></li>
+      </ul>
+    </nav>
+   <!-- Your code goes here -->
+<div class="container"> 
+
+   <section class="left">  
+<h1>Video</h1>
+
+<article>
+<h2>Video implementation in HTML5</h2>
+<p>Support for HTML5 video has been growing steady. In June 2013, Netflix added support for HTML5 video.
+   In January 2015, YouTube turned to HTML5 video as it's default player over Flash. In December 2015,
+   Facebook switched from Flash to HTML5 for all video content. The Flash plugin is widely assumed, 
+   including by Adobe, to be destined to be phased out, which will leave HTML5 video as the only widely supported
+   method to play video on the World Wide Web.
+</p>
+
+</article>
+
+<article class="divider">
+<h2 class="elegantshadow">The single biggest reason why startups succeed</h2>
+
+<p>
+ Bill Gross has founded a lot of startups, and incubated many others — and he got curious about why some succeeded
+ and others failed. So he gathered data from hundreds of companies, his own and other people's, and ranked each company
+ on five key factors. He found one factor that stands out from the others — and surprised even him.
+</p>
+
+<figure>
+  <video width="400"  controls="controls">
+     <source src="misc/BillGross.mp4"      type="video/mp4"/> 
+     <source src="misc/BillGross_VP8.webm" type="video/webm" />
+     Your browser does not support the video tag / type
+  </video>
+</figure>
+           
+
+
+
+
+
+</article>
+</section>
+<aside>
+<section>
+<h4><u>Video Control Options</u></h4>
+
+<input class="MyButton" type="button" value="Play" /> <br />
+<input class="MyButton" type="button" value="Pause" /> <br />
+<input class="MyButton" type="button" value="Restart" /> <br />
+<input class="MyButton" type="button" value="Show Controls" /> <br />
+<input class="MyButton" type="button" value="Remove Controls" />
+
+<hr>
+
+<h4><u>Social Media Links</u></h4>
+
+<div class="social">
+           <!-- images on row 1 - top 3px left 4px   - increment left by 27px for the next one -->
+           <!-- images on row 2 - top 30px left 4px  - increment left by 27px for the next one -->
+           <!-- images on row 3 - top 57px left 4px  - increment left by 27px for the next one -->
+           <!-- images on the next row - increment top by 27px for the next row -->
+   <a href="http://facebook.com" title="Face Book"  style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 4px;"></a> 
+   <a href="http://twitter.com" title="Twitter" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 31px;"></a>
+   <a href="http://pinterest.com" title="Pinterest" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 58px;"></a>
+   <a href="http://plus.google.com" title="Google+" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 85px;"></a>
+   
+</div>
+</section>
+</aside>
+
+</div>
+    <!-- Your code ends here -->
+  <!-- Defining Footer -->
+  <div id="footer">
+ 
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+       </script>
+ 
+ </div>
+  </body>
+</html>

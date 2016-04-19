@@ -1,0 +1,117 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 2 int222_161a22</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />   
+    <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="tables.html">Tables with CSS</a></li>
+        <li><a href="guestbook.html">Guest Book</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+		<li><a href="extra.html">Extra</a></li>
+      </ul>
+    </nav>
+   <!-- Your code goes here -->
+<div class="container"> 
+
+   <section class="left">  
+<h1>HTML5 new form attributes</h1>
+<p>
+Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal
+ of the need for tedious scripting and styling that was required in HTML4. The forms features in HTML5 provide a better
+ experience for users by making forms more consistent across different web sites and giving immediate feedback to the user
+ about data entry. They also provide this experience to users who have scripting disabled in their browser.
+</p>
+
+<article class="divider">
+<h2>How to set autofocus</h2>
+          <input type="text" name="entry01" id="entry01" autofocus="autofocus" /> autofocus
+</article>
+
+<article class="divider">
+<h2>How to set a placeholder</h2>
+          <input type="text" name="input2" id="input2" placeholder="sample text" />
+</article>
+
+<article class="divider">
+<h2>How to set required for an entry</h2>
+  Username:<input type="text" name="entry002" id="entry002" required="required"/>  
+</article>
+
+<article class="divider">
+<h2>How to create a list/datalist</h2>
+  <input id="entry02" name="entry02" type="text" list="subjectNames" placeholder="Select one" />
+ <datalist id="subjectNames">
+    <option value="APC100">APC100</option>
+    <option value="EAC150">EAC250</option>
+    <option value="ICA002">ICA002</option>
+    <option value="IPC144">IPC144</option>
+    <option value="ULI101">ULI101</option>
+    <option value="IOS110">IOS110</option> 
+ </datalist> 
+               
+</article>
+
+<article class="divider">
+<h2>How to ensure a valid email address format</h2>
+ 
+   email:<input type="email"  name="entry022" id="entry022" required /> 
+</article>
+
+<article class="divider">
+<h2>How to ensure a valid url format</h2>
+               
+     <input type="url" name="entry012" id="entry012" />
+                   
+</article>
+
+</section>
+<aside>
+<section>
+<h4><u>New Attributes in HTML5</u></h4>
+1. autofocus<br />
+2. placeholder<br />
+3. required<br />
+4. list/datalist
+
+<hr>
+
+<h4><u>Social Media Links</u></h4>
+
+<div class="social">
+           <!-- images on row 1 - top 3px left 4px   - increment left by 27px for the next one -->
+           <!-- images on row 2 - top 30px left 4px  - increment left by 27px for the next one -->
+           <!-- images on row 3 - top 57px left 4px  - increment left by 27px for the next one -->
+           <!-- images on the next row - increment top by 27px for the next row -->
+   <a href="http://facebook.com" title="Face Book"  style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 4px;"></a> 
+   <a href="http://twitter.com" title="Twitter" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 31px;"></a>
+   <a href="http://pinterest.com" title="Pinterest" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 58px;"></a>
+   <a href="http://plus.google.com" title="Google+" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 85px;"></a>
+   
+</div>
+</section>
+</aside>
+
+</div>
+    <!-- Your code ends here -->
+  <!-- Defining Footer -->
+  <div id="footer">
+ 
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+       </script>
+ 
+ </div>
+  </body>
+</html>

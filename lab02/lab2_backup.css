@@ -1,0 +1,91 @@
+
+    
+ .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+   
+h2{ text-align: center;}       
+
+h4{text-align: center; }
+
+body{background-color:#808080;}
+
+  .headerTop { border-style:outset; border-width:3px;
+               border-color: #041a7c; background-color:#ffffff; }
+
+ div.picture { width:300px; border:16px outset #369;padding:20px;margin:0 auto;}
+ figcaption {
+                padding: 3px;
+                margin:  3px;
+                font-size: 1em;
+                font-weight: 400;
+                border: 2px solid;
+                word-wrap:normal;
+                text-align:center;
+		background-color:#ffffff;
+    }
+figure {
+    text-align: center;
+}
+
+header{display: inline;}
+
+.indent {
+    text-indent: 35px;
+}
+.indent2{
+    text-indent: 20px;
+}
+
+.rowSpaceHeight{
+    height:3px;
+}
+
+.leftCell {
+
+    display:table-cell;
+    width: 33%;
+    border-top-style: solid;
+    border-top-color: red;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-left-style: solid;
+    border-left-color: red;
+    
+}
+
+.middleCell {
+    display:table-cell;
+    border-left:1px dashed;
+    border-right:1px dashed;
+    width:33%;
+    border-top-style:solid;
+    border-top-color: red;
+    border-bottom-style:solid;
+    border-bottom-color:red;
+}
+
+.rowWithCells{
+    display:table;
+    border:1px solid;
+    width:100%;
+    margin:auto;
+
+}
+
+.rightCell{
+
+    display:table-cell;
+    width: 33%;
+    border-top-style: solid;
+    border-top-color: red;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-right-style:solid;
+    border-right-color: red;
+}
+

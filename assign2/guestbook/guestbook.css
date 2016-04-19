@@ -1,0 +1,97 @@
+
+
+label{width: 150px; float: left;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/*Add an "active" class to the current link to let the user know which page he/she is on*/
+.active {
+    background-color: #4CAF50;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  width: 30%;
+}
+
+section.left {
+  width: 70%;
+}
+
+/* Social media image on pages*/
+.social{
+	position: relative; 
+	background: url('../images/social-media.png') no-repeat; 
+	width: 250px; 
+	height: 140px;
+	}
+	
+	hr{
+	color:  #cc0000;
+	background-color: #cc0033;
+	height: 5px;
+	}
+	
+/* CSS for footer display*/
+#footer {
+      clear: both;
+      background: #000;
+      color: #fff;
+      bottom: 0;
+	  
+    }
+	
+h1{
+	font-family: Arial,serif;
+	color: #66ff00;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+
+section {
+    margin-left: 150px;
+    border: 3px solid red;
+}
+
+.divider {
+	border-top: 3px solid red;
+}
+
+h1, h4, p, a, figure {
+    margin: 10px;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>table int222_161a22</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Tables With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+
+<!-- this is the first table of the page -->		
+  <table class="tableStyle">
+            <caption>Horizontal and Vertical Alignment</caption>
+            <tr>
+                 <th colspan="5">Cell Alignment With CSS</th>
+                
+            </tr>
+            <tr>
+                 <th class ="alignCentre" rowspan="4">Examples</th>
+                 <th>Row</th>
+                 <th>Cell-1</th>
+				 <th>Cell-2</th>
+				  <th>Cell-3</th>
+            </tr>
+            <tr>
+                 <th class="cellHeight">3</th>
+                 <td class="cellHeight vat hol">CSS</td>
+                 <td class="cellHeight hol" >CSS</td>
+				 <td class="cellHeight vab hol">CSS</td>
+            </tr>
+			<tr>
+                 <th class="cellHeight">4</th>
+                 <td class="cellHeight vat">CSS</td>
+                 <td class="cellHeight">CSS</td>
+				   <td class="cellHeight vab">CSS</td>
+            </tr>
+			<tr>
+                 <th class="cellHeight">5</th>
+                 <td class="cellHeight vat hor">CSS</td>
+                 <td class="cellHeight hor">CSS</td>
+				    <td class="cellHeight vab hor">CSS</td>				
+            </tr>
+      </table>	  
+	  <hr>      
+	
+	<!-- This is the second table of the page which contains the nested table -->
+
+      <table class="tableStyle">
+            <caption>Horizontal and Vertical Alignment</caption>
+            <tr>
+                 <th colspan="2">Cell Alignment With CSS</th>  
+            </tr>
+         <tr>
+           <th class ="alignCentre">Examples</th>
+        
+	    
+		<th>	
+
+		<!-- This is the nested table & note the new class -->
+		<table class="tableStyle2">
+       			  <caption class="captionBottom">Nested Table</caption>
+				       <tr>  <td>Row</td>
+                			 <td>Cell-1</td>
+					 <td>Cell-2</td>
+				 	 <td>Cell-3</td> </tr>
+           
+            <tr>
+                 <th class="cellHeight">3</th>
+                 <td class="cellHeight vat hol">CSS</td>
+                 <td class="cellHeight hol" >CSS</td>
+				 <td class="cellHeight vab hol">CSS</td>
+            </tr>
+			<tr>
+                 <th class="cellHeight">4</th>
+                 <td class="cellHeight vat">CSS</td>
+                 <td class="cellHeight">CSS</td>
+				   <td class="cellHeight vab">CSS</td>
+            </tr>
+			<tr>
+                 <th class="cellHeight">5</th>
+                 <td class="cellHeight vat hor">CSS</td>
+                 <td class="cellHeight hor">CSS</td>
+				    <td class="cellHeight vab hor">CSS</td>			
+            </tr>
+		</table>
+		</th>
+		</tr>
+		
+		</table>
+	
+	   
+       <!-- Your code ends here -->
+    </div>
+	</div> 
+    
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString())
+        </script>
+    </footer>
+  </body>
+</html>

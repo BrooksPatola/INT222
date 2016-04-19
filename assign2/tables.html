@@ -1,0 +1,115 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 2 int222_161a22</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />   
+    <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="guestbook.html">Guest Book</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+		<li><a href="extra.html">Extra</a></li>
+      </ul>
+    </nav>
+   <!-- Your code goes here -->
+<div class="container"> 
+
+   <section class="left">  
+<h1>Tables with CSS</h1>
+
+<table class="borderColor">
+   <tr>
+       <td>
+ <table>
+            <caption>HTML table with CSS</caption>
+        
+              <tr class="green">
+                <td>This</td>
+                <td>Little</td>
+                <td>Piggy</td>
+                <td>Went</td>
+                <td>To</td>
+                <td>Market</td>
+              </tr>
+              <tr>
+                <td class="green" colspan="2">This</td>
+                <td class="blue">Little</td>
+                <td class="blue">Piggy</td>
+                <td class="blue">Went</td>
+                <td class="blue">To</td>
+              </tr>
+              <tr>
+                <td class="green" colspan="4">This</td>
+                <td class="green" rowspan="3">Little</td>
+                <td class="blue">Piggy</td>
+				 </tr>
+              <tr>
+                <td class="blue" rowspan="2">This</td>
+                <td class="blue">Little</td>
+                <td class="blue">Piggy</td>
+                <td class="blue">Went</td>
+                <td class="green">To</td>
+              </tr>
+              <tr>
+                <td class="green">Little</td>
+                <td class="green">Piggy</td>
+                <td class="blue">Went</td>
+                <td class="blue">To</td>
+              </tr>
+         
+          </table>
+		 </td>
+		 </tr>
+		 </table>
+
+</section>
+<aside>
+<section>
+<h4><u>CSS properties used</u></h4>
+1. border-color<br />
+2. background-color<br />
+3. border-collapse<br />
+4. border-spacing
+
+
+<hr>
+
+<h4><u>Social Media Links</u></h4>
+
+<div class="social">
+           <!-- images on row 1 - top 3px left 4px   - increment left by 27px for the next one -->
+           <!-- images on row 2 - top 30px left 4px  - increment left by 27px for the next one -->
+           <!-- images on row 3 - top 57px left 4px  - increment left by 27px for the next one -->
+           <!-- images on the next row - increment top by 27px for the next row -->
+   <a href="http://facebook.com" title="Face Book"  style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 4px;"></a> 
+   <a href="http://twitter.com" title="Twitter" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 31px;"></a>
+   <a href="http://pinterest.com" title="Pinterest" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 58px;"></a>
+   <a href="http://plus.google.com" title="Google+" style="width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 85px;"></a>
+   
+</div>
+</section>
+</aside>
+
+</div>
+    <!-- Your code ends here -->
+  <!-- Defining Footer -->
+  <div id="footer">
+ 
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+       </script>
+ 
+ </div>
+  </body>
+</html>
